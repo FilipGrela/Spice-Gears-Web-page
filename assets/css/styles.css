@@ -1,0 +1,159 @@
+#team-triler {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+  filter: brightness(50%);
+  filter: blur(10px);
+}
+
+#banner {
+  position: relative;
+  height: 879px;
+  width: 100%;
+  overflow: hidden;
+}
+
+header {
+  position: relative;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.navbar-light .navbar-brand {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: white;
+}
+
+#logo-navbar {
+  background-image: url("Loga SG/Logo-SG-white.svg");
+}
+
+#logo-navigation {
+  background-image: url("../../assets/img/Loga%20SG/Logo_SG_black.webp?h=2b5912fc01df4cadef782c959dad6d10");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  width: 72px;
+  height: 72px;
+}
+
+#page-title {
+  font-family: Actor, sans-serif;
+  font-size: 53px;
+  margin-top: 209px;
+}
+
+#thriler-video {
+  opacity: 1;
+  filter: blur(0px) grayscale(0%) invert(0%) saturate(100%) sepia(0%);
+}
+
+#video {
+  color: black;
+}
+
+#team-frc-2020 {
+  width: 100%;
+  height: auto;
+}
+
+#abought-us-heder {
+  font-size: 48px;
+  font-family: Actor, sans-serif;
+  font-weight: bold;
+}
+
+#abought-us-text {
+}
+
+#main-image {
+  width: 100%;
+  height: auto;
+  transform: translateY(-21%);
+}
+
+#subpage-header {
+  height: 60vh;
+  border-bottom: 2px solid #e6e6e6;
+  background: linear-gradient(rgba(58,57,57,0.07), rgba(10,7,7,0.5)), url("../../assets/img/team-robomotion%202021.jpg?h=b2db5e9a690929f9e94e04bdcfd21287");
+  background-position: 70% 27%;
+}
+
+#page-content {
+  border-radius: 25px;
+  background: #f8f8f8;
+  padding: 10px;
+  margin-top: 1vh;
+}
+
+#our-team {
+  font-size: 64px;
+  font-family: Actor, sans-serif;
+  font-weight: bold;
+  padding-top: 45px;
+}
+
+#team-description-header {
+  font-size: 27px;
+  font-family: Actor, sans-serif;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 40px;
+  width: 100%;
+  height: auto;
+}
+
+#role-description-img {
+  width: 100%;
+  height: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+#our-mision {
+  background: linear-gradient(rgba(58,57,57,0.07), rgba(10,7,7,0.5)), url("../../assets/img/abought-us/FLL%20Krasnik.jpg?h=cbe93c01b4afc16d5b0c46447ac0962f");
+  background-position: 15% 31%;
+  margin-bottom: 10vh;
+}
+
+#page-subtitle {
+  font-size: 132px;
+  color: rgb(0,0,0);
+}
+
+#page-abought-us-subtitle {
+  color: rgb(255,255,255);
+  font-size: 87px;
+  font-family: Actor, sans-serif;
+}
+
+body {
+}
+
+@media (max-width: 580px) {
+  .col-xs-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
