@@ -161,7 +161,7 @@ vertival-center {
 #travels {
   height: 60vh;
   border-bottom: 2px solid #e6e6e6;
-  background: linear-gradient(rgba(58,57,57,0.07), rgba(10,7,7,0.5)), url("../../assets/img/xszym.jpg?h=eea05a1b40501a365586f8306f686e84");
+  background: linear-gradient(rgba(58,57,57,0.07), rgba(10,7,7,0.5)), url("../../assets/img/law-document.jpeg?h=51f16b487cb3fabb65882d0313198ba8");
   background-position: 70% 27%;
 }
 
@@ -316,5 +316,43 @@ vertival-center {
 
 #index-title {
   margin-top: 10%;
+}
+
+#abought-first {
+  margin-top: 14vh;
+  border-radius: 30px;
+  padding: 15px;
+  background-color: rgba(228,222,222,0.3);
+}
+
+#abought-first {
+}
+
+#our-mision-main-page {
+  margin-top: 15vh;
+}
+
+#podatek {
+  padding-top: 15vh;
+}
+
+#podatek-title {
+  font-size: 12vw;
+}
+
+#podatek-link {
+  color: black;
+}
+
+.fb-post {
+  height: 500px;
+}
+
+#news {
+  margin-top: 15vh;
+}
+
+#news-title {
+  margin-bottom: 3vh;
 }
 
