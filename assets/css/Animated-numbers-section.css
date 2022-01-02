@@ -319,25 +319,10 @@ vertival-center {
 }
 
 #abought-first {
-  margin-top: 14vh;
-  border-radius: 30px;
-  padding: 15px;
-  background-color: rgba(228,222,222,0.3);
-}
-
-#abought-first {
-}
-
-#our-mision-main-page {
-  margin-top: 15vh;
-}
-
-#podatek {
-  padding-top: 15vh;
 }
 
 #podatek-title {
-  font-size: 12vw;
+  font-size: 14rem;
 }
 
 #podatek-link {
@@ -354,5 +339,32 @@ vertival-center {
 
 #news-title {
   margin-bottom: 3vh;
+}
+
+@media (max-width: 726px) {
+  .sponsors-row {
+    max-width: 60%;
+  }
+}
+
+.contarner-margin-top {
+  margin-top: 10vh;
+}
+
+.content-container {
+  border-radius: 25px;
+  background: #f8f8f8;
+  padding: 17px;
+  margin-top: 7vh;
+}
+
+#event-types {
+  font-size: 50px;
+  font-family: Actor, sans-serif;
+  font-weight: bold;
+}
+
+#google-map {
+  min-height: 35vh;
 }
 

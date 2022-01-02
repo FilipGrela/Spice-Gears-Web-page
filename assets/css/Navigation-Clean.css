@@ -181,25 +181,18 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 #our-mission-image {
-  background-image: url("../../assets/img/abought-us/hackyeah.jpg?h=694d880b4322948848ed85814245fb2d");
-  background-position: 71% 0%;
-  background-size: 161%;
+  /*background-image: url("../../assets/img/abought-us/hackyeah.jpg?h=694d880b4322948848ed85814245fb2d");*/
+  /*background-position: 71% 0%;*/
+  /*background-size: 161%;*/
   float: left;
   margin: 8px;
-  height: 30vh;
+  /*height: 30vh;*/
 }
 
 #our-mission-text {
   text-align: justify;
   font-family: Conv_TitilliumWeb-Regular;
   font-size: 20px;
-}
-
-#our-mission {
-  border-radius: 25px;
-  background: #f8f8f8;
-  padding: 17px;
-  margin-top: 10vh;
 }
 
 #robots-image {
